@@ -4,6 +4,8 @@
   "description": "A Logzio stream for the Bunyan logger",
   "main": "./lib/logzio-bunyan.js",
   "scripts": {
+    "release": "bk-standard-version",
+    "release-major": "bk-standard-version -- --release-as major",
     "test": "test"
   },
   "repository": {
@@ -27,5 +29,8 @@
     "json-stringify-safe": "5.0.x",
     "lodash.assign": "4.2.0",
     "logzio-nodejs": "^0.4.10"
+  },
+  "devDependencies": {
+    "@sportheroes/bk-standard-version": "4.12.0",
   }
 }

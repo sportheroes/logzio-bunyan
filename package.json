@@ -24,13 +24,21 @@
   ],
   "author": "Alon Mizrahi <alon@logz.io>",
   "license": "ISC",
+  "// safe-json-stringify vs json-stringify-safe": "These are two different packages and both are required ¯\\_(ツ)_/¯",
+  "peerDependencies": {
+    "@sportheroes/bk-bunyan": "2.1.0",
+    "mv": "~2",
+    "safe-json-stringify": "~1"
+  },
   "dependencies": {
-    "bunyan": "^1.8.12",
     "json-stringify-safe": "5.0.x",
     "lodash.assign": "4.2.0",
     "logzio-nodejs": "^0.4.10"
   },
   "devDependencies": {
     "@sportheroes/bk-standard-version": "4.12.0",
+    "@sportheroes/bk-bunyan": "2.1.0",
+    "mv": "~2",
+    "safe-json-stringify": "~1"
   }
 }

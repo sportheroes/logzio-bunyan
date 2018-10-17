@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/logzio/logzio-bunyan/compare/v1.1.0...v1.1.1) (2018-10-17)
+
+
+### ⏩ Versioning
+
+* **Release**: Merge pull request #1 from sportheroes/arnaud/fix/check-erase-message ([44dfd29](https://github.com/logzio/logzio-bunyan/commit/44dfd29) - [acostes](https://github.com/acostes)), closes [#1](https://github.com/logzio/logzio-bunyan/issues/1)
+
+### ✴️ Bug Fixes
+
+* **Core**: Check before erase msg ([d6f6583](https://github.com/logzio/logzio-bunyan/commit/d6f6583) - [acostes](https://github.com/acostes))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2018-06-22)
 
